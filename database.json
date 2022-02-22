@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Sora Chung",
       "email": "sora@chung.com",
-      "defaultPetId": 2
+      "defaultPetId": 1
     },
     {
       "id": 2,
@@ -30,7 +30,7 @@
       "id": 1,
       "name": "Candy",
       "birthdate": "2011-11-11",
-      "bioText": "Candy is the cutest girl in the world",
+      "bioText": "Candy is the cutest girl in the whole wide world",
       "sexId": 1,
       "photoURL": "http://res.cloudinary.com/sorachung/image/upload/s--Julmd5cJ--/v1645479782/p5rqsfg3jd3coo28pelo.jpg",
       "userId": 1,
@@ -166,7 +166,7 @@
       "date": "2022-02-03",
       "incidentTypeId": 2,
       "petId": 1,
-      "starred": true,
+      "starred": false,
       "id": 3
     },
     {
@@ -211,7 +211,7 @@
       "description": "happens very frequently especially when not on apoquel",
       "date": "2022-02-09",
       "petId": 3,
-      "starred": true,
+      "starred": false,
       "id": 8
     }
   ],
@@ -258,22 +258,11 @@
       "description": "ear infection + yearly check up",
       "petId": 1,
       "starred": false,
-      "invoicePicURL": "http://res.cloudinary.com/sorachung/image/upload/s--XUBIwP6K--/v1644597661/zxvkztzgunow6fkckg3g.jpg",
+      "invoicePicURL": null,
       "id": 7
     }
   ],
-  "petAllergies": [
-    {
-      "id": 1,
-      "petId": 1,
-      "thing": "chicken"
-    },
-    {
-      "thing": "turkey",
-      "petId": 1,
-      "id": 2
-    }
-  ],
+  "petAllergies": [],
   "contacts": [
     {
       "id": 1,
@@ -300,21 +289,9 @@
       "starred": false
     },
     {
-      "id": 4,
-      "name": "PetCo",
-      "phoneNumber": "(810) 219-6627",
-      "addressStreet": "85738 Stark Streets",
-      "addressCity": "Franklin",
-      "addressState": "TN ",
-      "addressZipCode": "37067",
-      "contactsTypeId": 2,
-      "userId": 1,
-      "starred": false
-    },
-    {
       "contactsTypeId": 5,
       "userId": 1,
-      "starred": true,
+      "starred": false,
       "name": "John Smith",
       "phoneNumber": "(615) 790-8585",
       "addressStreet": "4180 Clovercroft Rd",
@@ -344,12 +321,12 @@
       "id": 3
     },
     {
-      "subject": "change food?",
+      "subject": "change food",
       "textBody": "look for limited ingredient diet wet foods at the store",
       "starred": true,
       "userId": 1,
       "petId": 1,
-      "timestamp": 1645540841987,
+      "timestamp": 1645544302774,
       "id": 4,
       "pet": {
         "id": 1,
@@ -368,11 +345,11 @@
     },
     {
       "subject": "note 1",
-      "textBody": "candy is v cute",
+      "textBody": "candy is cute",
       "starred": false,
       "userId": 1,
       "petId": 1,
-      "timestamp": 1644593972214,
+      "timestamp": 1645545889139,
       "id": 5
     },
     {
@@ -418,17 +395,6 @@
     }
   ],
   "reminders": [
-    {
-      "userId": 1,
-      "complete": false,
-      "starred": true,
-      "date": "2022-02-11",
-      "time": "13:30",
-      "subject": "Feed",
-      "details": "feed regular food",
-      "petId": 1,
-      "id": 3
-    },
     {
       "userId": 1,
       "complete": false,
@@ -479,6 +445,15 @@
       "userId": 1,
       "starred": false,
       "id": 4
+    },
+    {
+      "photoURL": "http://res.cloudinary.com/sorachung/image/upload/s--_hOpSrvg--/v1645546007/pa8mxuxg1htowlxnkvio.jpg",
+      "title": "Cute",
+      "bodyText": "very polite",
+      "timestamp": 1645546017209,
+      "userId": 1,
+      "starred": false,
+      "id": 5
     }
   ],
   "memoriesTags": [
@@ -496,6 +471,11 @@
       "memoryId": 4,
       "petId": 4,
       "id": 5
+    },
+    {
+      "memoryId": 5,
+      "petId": 3,
+      "id": 6
     }
   ],
   "contactsTypes": [
