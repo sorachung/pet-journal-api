@@ -1,0 +1,689 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Sora Chung",
+      "email": "sora@chung.com",
+      "defaultPetId": 2
+    },
+    {
+      "id": 2,
+      "name": "Forrest Bosco",
+      "email": "forrest@bosco.com",
+      "defaultPetId": 0
+    },
+    {
+      "name": "Jennifer Show",
+      "email": "jennifer@show.com",
+      "id": 3,
+      "defaultPetId": 0
+    },
+    {
+      "name": "Bob Bradley",
+      "email": "bob@bradley.com",
+      "defaultPetId": 0,
+      "id": 4
+    }
+  ],
+  "pets": [
+    {
+      "id": 1,
+      "name": "Candy",
+      "birthdate": "2011-11-11",
+      "bioText": "Candy is the cutest girl in the world",
+      "sexId": 1,
+      "photoURL": "http://res.cloudinary.com/sorachung/image/upload/s--Julmd5cJ--/v1645479782/p5rqsfg3jd3coo28pelo.jpg",
+      "userId": 1,
+      "specieId": 1,
+      "breed": "Maltese",
+      "weight": 10,
+      "microchipNumber": "5709895344",
+      "isFixed": true
+    },
+    {
+      "id": 2,
+      "name": "Songi",
+      "birthdate": "2011-11-11",
+      "bioText": "Songi is the cutest girl in the world!",
+      "sexId": 1,
+      "profilePhotoId": 2,
+      "userId": 1,
+      "specieId": 2,
+      "breed": "Tabby",
+      "weight": 12,
+      "microchipNumber": "023423",
+      "isFixed": true,
+      "photoURL": "http://res.cloudinary.com/sorachung/image/upload/s--E-JJ5UJQ--/v1645480345/fqm9dxdnrm1pa5ybbp0p.jpg"
+    },
+    {
+      "name": "Micky",
+      "specieId": 1,
+      "breed": "Maltese",
+      "sexId": 2,
+      "birthdate": "2013-07-03",
+      "bioText": "Micky is the cutest boy in the world!",
+      "userId": 1,
+      "microchipNumber": null,
+      "isFixed": false,
+      "profilePhotoId": 1,
+      "id": 3
+    },
+    {
+      "name": "Heidi",
+      "specieId": 2,
+      "breed": "Maltese",
+      "sexId": 1,
+      "birthdate": "2010-07-06",
+      "bioText": "Heidi is v cute girl",
+      "userId": 1,
+      "weight": null,
+      "microchipNumber": null,
+      "isFixed": false,
+      "profilePhotoId": null,
+      "photoURL": "http://res.cloudinary.com/sorachung/image/upload/s--Koi5tAT6--/v1645480467/r3lkgzxebxuprunajj39.jpg",
+      "id": 4
+    }
+  ],
+  "petVaccinations": [
+    {
+      "vaccinationId": 9,
+      "date": "2022-01-05",
+      "petId": 1,
+      "starred": true,
+      "id": 1
+    },
+    {
+      "vaccinationId": 11,
+      "date": "2022-02-01",
+      "petId": 3,
+      "starred": false,
+      "id": 2
+    }
+  ],
+  "petMedications": [
+    {
+      "id": 1,
+      "petId": 1,
+      "name": "Apoquel",
+      "dosage": "3.6 mg",
+      "isCurrent": false,
+      "starred": false
+    },
+    {
+      "petId": 1,
+      "name": "Ketoconazole",
+      "dosage": "1 mg",
+      "isCurrent": false,
+      "id": 2,
+      "starred": true
+    },
+    {
+      "petId": 3,
+      "name": "Clindamycin",
+      "dosage": "1 mg",
+      "starred": true,
+      "isCurrent": true,
+      "id": 3
+    },
+    {
+      "petId": 1,
+      "name": "Clindamycin",
+      "dosage": "1 mg",
+      "isCurrent": true,
+      "starred": false,
+      "id": 4
+    },
+    {
+      "isCurrent": false,
+      "name": "bravecto",
+      "dosage": "1 mg",
+      "starred": false,
+      "petId": 1,
+      "id": 7
+    },
+    {
+      "isCurrent": true,
+      "name": "Apoquel",
+      "dosage": "3.6 mg",
+      "starred": false,
+      "petId": 3,
+      "id": 8
+    }
+  ],
+  "incidents": [
+    {
+      "id": 2,
+      "incidentTypeId": 2,
+      "name": "ear infection",
+      "description": "both ears infected",
+      "date": "2022-03-02",
+      "petId": 1,
+      "starred": false
+    },
+    {
+      "name": "won't eat",
+      "description": "hasn't been eating well for a week",
+      "date": "2022-02-03",
+      "incidentTypeId": 2,
+      "petId": 1,
+      "starred": true,
+      "id": 3
+    },
+    {
+      "name": "Wont eat",
+      "description": "hasn't been eating well for two weeks",
+      "date": "2022-02-01",
+      "incidentTypeId": 2,
+      "petId": 3,
+      "starred": true,
+      "id": 4
+    },
+    {
+      "incidentTypeId": 2,
+      "name": "having trouble pooping",
+      "description": "seen many times where he tries to poop but can't",
+      "date": "2022-02-03",
+      "petId": 3,
+      "starred": false,
+      "id": 5
+    },
+    {
+      "incidentTypeId": 3,
+      "name": "fat",
+      "description": "she fat as hell",
+      "date": "2022-02-07",
+      "petId": 2,
+      "starred": true,
+      "id": 6
+    },
+    {
+      "incidentTypeId": 3,
+      "name": "itchy",
+      "description": "been very itchy for a long time",
+      "date": "2022-02-08",
+      "petId": 1,
+      "starred": false,
+      "id": 7
+    },
+    {
+      "incidentTypeId": 3,
+      "name": "Ear infections",
+      "description": "happens very frequently especially when not on apoquel",
+      "date": "2022-02-09",
+      "petId": 3,
+      "starred": true,
+      "id": 8
+    }
+  ],
+  "vetVisits": [
+    {
+      "date": "2022-02-02",
+      "description": "hasn't been eating well for a day",
+      "vetId": 3,
+      "petId": 1,
+      "starred": true,
+      "invoicePicURL": null,
+      "id": 3
+    },
+    {
+      "date": "2022-02-03",
+      "description": "went for not eating",
+      "vetId": 1,
+      "petId": 1,
+      "starred": false,
+      "id": 4,
+      "invoicePicURL": null
+    },
+    {
+      "vetId": 3,
+      "date": "2022-02-07",
+      "description": "fat",
+      "petId": 2,
+      "starred": true,
+      "invoicePicURL": null,
+      "id": 5
+    },
+    {
+      "vetId": 1,
+      "date": "2022-02-07",
+      "description": "fatter",
+      "petId": 2,
+      "starred": false,
+      "invoicePicURL": null,
+      "id": 6
+    },
+    {
+      "vetId": 1,
+      "date": "2022-01-11",
+      "description": "ear infection + yearly check up",
+      "petId": 1,
+      "starred": false,
+      "invoicePicURL": "http://res.cloudinary.com/sorachung/image/upload/s--XUBIwP6K--/v1644597661/zxvkztzgunow6fkckg3g.jpg",
+      "id": 7
+    }
+  ],
+  "petAllergies": [
+    {
+      "id": 1,
+      "petId": 1,
+      "thing": "chicken"
+    },
+    {
+      "thing": "turkey",
+      "petId": 1,
+      "id": 2
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Williamson County Animal Hospital",
+      "phoneNumber": "492-493-0317",
+      "addressStreet": "92919 Bernier Mill",
+      "addressCity": "Franklin",
+      "addressState": "TN",
+      "addressZipCode": "37068",
+      "contactsTypeId": 1,
+      "userId": 1,
+      "starred": true
+    },
+    {
+      "id": 3,
+      "name": "Clovercroft Veterinary Hospital",
+      "phoneNumber": "(615) 790-8585",
+      "addressStreet": "4180 Clovercroft Rd",
+      "addressCity": "Franklin",
+      "addressState": "TN",
+      "addressZipCode": "37067",
+      "contactsTypeId": 1,
+      "userId": 1,
+      "starred": false
+    },
+    {
+      "id": 4,
+      "name": "PetCo",
+      "phoneNumber": "(810) 219-6627",
+      "addressStreet": "85738 Stark Streets",
+      "addressCity": "Franklin",
+      "addressState": "TN ",
+      "addressZipCode": "37067",
+      "contactsTypeId": 2,
+      "userId": 1,
+      "starred": false
+    },
+    {
+      "contactsTypeId": 5,
+      "userId": 1,
+      "starred": true,
+      "name": "John Smith",
+      "phoneNumber": "(615) 790-8585",
+      "addressStreet": "4180 Clovercroft Rd",
+      "addressCity": "Franklin",
+      "addressState": "TN ",
+      "addressZipCode": "37068",
+      "id": 5
+    }
+  ],
+  "notes": [
+    {
+      "subject": "note 1",
+      "textBody": "this is songi's first note",
+      "starred": false,
+      "userId": 1,
+      "petId": 2,
+      "timestamp": 1644263318371,
+      "id": 2
+    },
+    {
+      "subject": "love",
+      "textBody": "I love micky!",
+      "starred": true,
+      "userId": 1,
+      "petId": 3,
+      "timestamp": 1644264277092,
+      "id": 3
+    },
+    {
+      "subject": "change food?",
+      "textBody": "look for limited ingredient diet wet foods at the store",
+      "starred": true,
+      "userId": 1,
+      "petId": 1,
+      "timestamp": 1645540841987,
+      "id": 4,
+      "pet": {
+        "id": 1,
+        "name": "Candy",
+        "birthdate": "2011-11-11",
+        "bioText": "Candy is the cutest girl in the world",
+        "sexId": 1,
+        "photoURL": "http://res.cloudinary.com/sorachung/image/upload/s--Julmd5cJ--/v1645479782/p5rqsfg3jd3coo28pelo.jpg",
+        "userId": 1,
+        "specieId": 1,
+        "breed": "Maltese",
+        "weight": 10,
+        "microchipNumber": "5709895344",
+        "isFixed": true
+      }
+    },
+    {
+      "subject": "note 1",
+      "textBody": "candy is v cute",
+      "starred": false,
+      "userId": 1,
+      "petId": 1,
+      "timestamp": 1644593972214,
+      "id": 5
+    },
+    {
+      "subject": "food",
+      "textBody": "give songi less food",
+      "starred": true,
+      "userId": 1,
+      "petId": 2,
+      "timestamp": 1644594002875,
+      "id": 6
+    }
+  ],
+  "events": [
+    {
+      "userId": 1,
+      "starred": true,
+      "date": "2022-02-23",
+      "time": "09:30",
+      "subject": "vet visit",
+      "details": "time for a vet visit!",
+      "petId": 1,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "starred": false,
+      "subject": "vet visit",
+      "date": "2022-02-22",
+      "time": "11:45",
+      "details": "another vet visit for the baby",
+      "petId": 3,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "starred": false,
+      "date": "2022-02-16",
+      "time": "13:10",
+      "subject": "vet visit",
+      "details": "for itchy skin",
+      "petId": 1,
+      "id": 4
+    }
+  ],
+  "reminders": [
+    {
+      "userId": 1,
+      "complete": false,
+      "starred": true,
+      "date": "2022-02-11",
+      "time": "13:30",
+      "subject": "Feed",
+      "details": "feed regular food",
+      "petId": 1,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "complete": false,
+      "starred": false,
+      "date": "2022-02-22",
+      "time": "15:22",
+      "subject": "heartworm medicine",
+      "details": "monthly heartworm med",
+      "petId": 2,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "complete": false,
+      "starred": true,
+      "date": "2022-02-22",
+      "time": "20:30",
+      "subject": "medicine",
+      "details": "give her all of her medicine",
+      "petId": 1,
+      "id": 7
+    }
+  ],
+  "memories": [
+    {
+      "photoURL": "https://res.cloudinary.com/sorachung/image/upload/s--9ieGHl0O--/v1645460946/waw4tklshfxcbvnntvnn.jpg",
+      "title": "Songi is a cutie",
+      "bodyText": "look at how cute she is!",
+      "timestamp": 1645460962445,
+      "userId": 1,
+      "starred": true,
+      "id": 2
+    },
+    {
+      "photoURL": "http://res.cloudinary.com/sorachung/image/upload/s--3HTt5bh7--/v1645461144/y1karf5jsn1pjt5vbmd0.jpg",
+      "title": "boop",
+      "bodyText": "boop her snoot",
+      "timestamp": 1645461157984,
+      "userId": 1,
+      "starred": true,
+      "id": 3
+    },
+    {
+      "photoURL": "http://res.cloudinary.com/sorachung/image/upload/s--m36ySscm--/v1645540983/nxueyiymhdyd1uokzz9m.jpg",
+      "title": "Yawwwwn",
+      "bodyText": "Heidi is yawning :)",
+      "timestamp": 1645540996046,
+      "userId": 1,
+      "starred": false,
+      "id": 4
+    }
+  ],
+  "memoriesTags": [
+    {
+      "memoryId": 2,
+      "petId": 2,
+      "id": 3
+    },
+    {
+      "memoryId": 3,
+      "petId": 1,
+      "id": 4
+    },
+    {
+      "memoryId": 4,
+      "petId": 4,
+      "id": 5
+    }
+  ],
+  "contactsTypes": [
+    {
+      "id": 1,
+      "type": "Vet"
+    },
+    {
+      "id": 2,
+      "type": "Groomer"
+    },
+    {
+      "id": 3,
+      "type": "Shop"
+    },
+    {
+      "id": 4,
+      "type": "Sitter"
+    },
+    {
+      "id": 5,
+      "type": "Walker"
+    },
+    {
+      "id": 6,
+      "type": "Trainer"
+    },
+    {
+      "id": 7,
+      "type": "Other"
+    }
+  ],
+  "species": [
+    {
+      "id": 1,
+      "type": "dog"
+    },
+    {
+      "id": 2,
+      "type": "cat"
+    },
+    {
+      "id": 3,
+      "type": "fish"
+    },
+    {
+      "id": 4,
+      "type": "bird"
+    },
+    {
+      "id": 5,
+      "type": "rabbit"
+    },
+    {
+      "id": 6,
+      "type": "reptile"
+    },
+    {
+      "id": 7,
+      "type": "hamster"
+    },
+    {
+      "id": 8,
+      "type": "guinea pig"
+    },
+    {
+      "id": 9,
+      "type": "other"
+    }
+  ],
+  "vaccinations": [
+    {
+      "id": 1,
+      "specieId": 1,
+      "shot": "Other"
+    },
+    {
+      "id": 2,
+      "specieId": 2,
+      "shot": "Other"
+    },
+    {
+      "id": 3,
+      "specieId": 3,
+      "shot": "Other"
+    },
+    {
+      "id": 4,
+      "specieId": 4,
+      "shot": "Other"
+    },
+    {
+      "id": 5,
+      "specieId": 5,
+      "shot": "Other"
+    },
+    {
+      "id": 6,
+      "specieId": 6,
+      "shot": "Other"
+    },
+    {
+      "id": 7,
+      "specieId": 7,
+      "shot": "Other"
+    },
+    {
+      "id": 8,
+      "specieId": 8,
+      "shot": "Other"
+    },
+    {
+      "id": 9,
+      "specieId": 1,
+      "shot": "Rabies"
+    },
+    {
+      "id": 10,
+      "specieId": 1,
+      "shot": "DHPP"
+    },
+    {
+      "id": 11,
+      "specieId": 1,
+      "shot": "Bordetella"
+    },
+    {
+      "id": 12,
+      "specieId": 1,
+      "shot": "Canine influenza"
+    },
+    {
+      "id": 13,
+      "specieId": 1,
+      "shot": "Leptospirosis"
+    },
+    {
+      "id": 14,
+      "specieId": 1,
+      "shot": "Lyme"
+    },
+    {
+      "id": 15,
+      "specieId": 2,
+      "shot": "Rabies"
+    },
+    {
+      "id": 16,
+      "specieId": 2,
+      "shot": "FVRCP"
+    },
+    {
+      "id": 17,
+      "specieId": 2,
+      "shot": "Bordetella"
+    },
+    {
+      "id": 18,
+      "specieId": 2,
+      "shot": "Feline leukemia"
+    }
+  ],
+  "sexes": [
+    {
+      "id": 1,
+      "label": "female"
+    },
+    {
+      "id": 2,
+      "label": "male"
+    },
+    {
+      "id": 3,
+      "label": "other"
+    }
+  ],
+  "incidentTypes": [
+    {
+      "id": 1,
+      "label": "Incident"
+    },
+    {
+      "id": 2,
+      "label": "Acute illness"
+    },
+    {
+      "id": 3,
+      "label": "Chronic Illness"
+    }
+  ]
+}
